@@ -1,0 +1,35 @@
+div {
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.square {
+  animation-name: color-transition;
+  animation-fill-mode: forwards;
+}
+
+.square1 {
+  animation-duration: 0.8s;
+  animation-delay: 0.1s;
+}
+
+.square2 {
+  animation-duration: 0.8s;
+  animation-delay: 0.3s;
+}
+
+.square3 {
+  animation-duration: 0.8s;
+  animation-delay: 0.5s;
+}
+
+.square4 {
+  animation-duration: 0.8s;
+  animation-delay: 0.7s;
+}
+
+@keyframes color-transition {
+  to {
+    background: #fbfbfb;
+  }
+}

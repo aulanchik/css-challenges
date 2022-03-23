@@ -1,0 +1,28 @@
+@import url("animation.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #474747;
+  overflow: hidden;
+}
+
+.square {
+  height: 25vh;
+}
+
+.square.square1 {
+  background: #ffa9a3;
+}
+
+.square.square2 {
+  background: #4e82c2;
+}
+
+.square.square3 {
+  background: #4ec267;
+}
+
+.square.square4 {
+  background: #f2fa87;
+}
