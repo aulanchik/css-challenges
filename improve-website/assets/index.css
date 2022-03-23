@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  margin: 10vh;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #174885;
+  font-size: 4em;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: #3275cf;
+  font-size: 3em;
+}
+
+.section-text {
+  text-align: center;
+}
