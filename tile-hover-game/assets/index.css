@@ -1,0 +1,21 @@
+@import url('animations.css');
+
+body {
+	height: 100vh;
+}
+
+.tiles {
+	display: grid;
+    transform: translate(-50%, -50%);
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+	position: absolute;
+	grid-gap: 1vw;
+	left: 50%;
+	top: 50%;
+}
+
+.tile {
+	border: 1px solid black;
+	border-radius: 20px;
+}

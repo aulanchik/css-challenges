@@ -1,0 +1,48 @@
+.tile {
+  transition: 0.5s all;
+}
+
+.tile1:hover {
+  background: #441151;
+  transform: scale(1.1);
+}
+
+.tile2:hover {
+  background: #883677;
+  transform: scale(1.1);
+}
+
+.tile3:hover {
+  background: #ca61c3;
+  transform: scale(1.1);
+}
+
+.tile4:hover {
+  background: #ee85b5;
+  transform: scale(1.1);
+}
+
+.tile5:hover {
+  background: #ff958c;
+  transform: scale(1.1);
+}
+
+.tile6:hover {
+  background: #47e5bc;
+  transform: scale(1.1);
+}
+
+.tile7:hover {
+  background: #81e4da;
+  transform: scale(1.1);
+}
+
+.tile8:hover {
+  background: #ccf5ac;
+  transform: scale(1.1);
+}
+
+.tile9:hover {
+  background: #daffed;
+  transform: scale(1.1);
+}
