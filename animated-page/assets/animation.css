@@ -1,0 +1,52 @@
+@keyframes left-expand {
+  from {
+    width: 50%;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes scale-up {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes top-expand {
+  from {
+    height: 20vh;
+    opacity: 0;
+  }
+  to {
+    height: 40vh;
+    opacity: 1;
+  }
+}
+
+#title-section {
+  animation: left-expand 1s;
+}
+
+#hero-section {
+  animation-delay: 0.5s;
+  animation: scale-up 1s;
+  animation-fill-mode: backwards;
+}
+
+#about-us-section {
+  animation-delay: 1s;
+  animation: top-expand 1s;
+  animation-fill-mode: backwards;
+}
+
+#footer-section {
+  animation-delay: 1.5s;
+  animation: left-expand 1s;
+  animation-fill-mode: backwards;
+}

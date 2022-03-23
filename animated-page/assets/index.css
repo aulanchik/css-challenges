@@ -1,0 +1,67 @@
+@import url('animation.css');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.section {
+    margin: 5vh 5vw;
+    padding: 3vh 3vw;
+}
+
+.section-title {
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #267530;
+}
+
+#title-section {
+    margin: 0;
+    width: 100%;
+    font-size: 2em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background: #92e1f7;
+    text-transform: uppercase;
+}
+
+#hero-section {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://komonews.com/resources/media/b7298a0f-4fa6-4f17-9aed-e8073f100abc-large16x9_seattle_skyline_challenge_143.jpg?1563284834048);
+    background-size: cover;
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    min-height: 60vh;
+    width: 100%;
+    padding: 0;
+}
+
+#about-us-section {
+    height: 30vh;
+}
+#footer-section {
+    margin: 0;
+    background: #404040;
+    color: white;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 4vh;
+    padding-right: 0;
+    padding-bottom: 4vh;
+    padding-left: 0;
+    height: 10vh;
+}
