@@ -1,0 +1,59 @@
+@import url('animations.css');
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    color: white;
+    text-align: center;
+    background: url(https://s23574.pcdn.co/wp-content/uploads/Singular-1140x703.jpg);
+    font-family: PT Sans Narrow, sans-serif;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-section {
+    text-transform: uppercase;
+    animation: fade-in 0.5s;
+    animation-fill-mode: backwards;
+    margin: 4vh;
+}
+
+.title {
+    margin: 0;
+    font-size: 3em;
+}
+
+.section-text {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#action-section {
+    animation: fade-in 0.5s;
+    animation-delay: 0.3s;
+    width: 80vw;
+}
+
+.section-button {
+    background: #3765ab;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 2em;
+    font-family: PT Sans Narrow, sans-serif;
+    transition: background 0.5s;
+}
+
+.section-button:hover {
+    background: #73adff;
+}
